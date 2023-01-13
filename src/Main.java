@@ -6,6 +6,6 @@ public class Main {
         int  ticket = 3147;
         double bonusMiles = 20;
         System.out.println("Количество начисленных миль:");
-        System.out.println(ticket/bonusMiles);
+        System.out.println(ticket/bonusMiles); //Вывод бонусов
     }
 }
