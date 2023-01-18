@@ -1,6 +1,6 @@
 public class BonusMilesService {
-    public static void calculate(String[] args) {
-        int cost;
-
+    public int calculate(int cost) {
+        int miles = cost / 20;
+        return miles; // возвращаем количество расчитанных бонусных миль
     }
 }
